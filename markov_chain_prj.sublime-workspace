@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"b",
+				"BeautifulSoup"
+			],
+			[
 				"w",
 				"word"
 			]
@@ -15,15 +19,25 @@
 			"file": "fetch_data.py",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 849,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "markov_python/cc_markov.py",
+			"settings":
+			{
+				"buffer_size": 2430,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "run.py",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 425,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -98,7 +112,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -107,15 +121,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 849,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								391,
+								407
 							]
 						],
 						"settings":
@@ -123,7 +137,7 @@
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -131,19 +145,49 @@
 				},
 				{
 					"buffer": 1,
-					"file": "run.py",
+					"file": "markov_python/cc_markov.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 2430,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1761,
+								1774
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "run.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								330,
+								330
 							]
 						],
 						"settings":
