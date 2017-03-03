@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"out",
+				"out_text"
+			],
+			[
 				"b",
 				"BeautifulSoup"
 			],
@@ -19,7 +23,7 @@
 			"file": "fetch_data.py",
 			"settings":
 			{
-				"buffer_size": 849,
+				"buffer_size": 843,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -33,10 +37,13 @@
 			}
 		},
 		{
+			"contents": "\"\"\"\ncomment\n\"\"\"\n\nfrom markov_python.cc_markov import MarkovChain\nimport fetch_data\n\nlink='http://www.e-reading.club/bookreader.php/1020088/Fomina_-_Pritchi._Daosskie%2C_kitayskie%2C_dzenskie.html' \n#link='http://www.krotov.info/acts/01/joseph/filon_02.htm'\n\nvocabul=fetch_data.load_web_to_text(link,'voc.txt')\n\nprint fetch_data.show_param(str(vocabul))\n\nout_file='out_text.txt'\n\ntext_object=MarkovChain(3)\ntext_object.add_file('voc.txt')\nout_text = text_object.generate_text(200)\nfor i in out_text: \tprint type(i),i.decode('cp866')\nout_text_j = ' '.join(out_text)\nwith open(out_file,'w+') as ofile:\n\tfor i in out_text: ofile.write(i+'\\n')\n\n\n#print out_text.decode('utf-8')\n#print out_text_j.decode('utf-8')\n\nprint 'Error'\n\n",
 			"file": "run.py",
+			"file_size": 752,
+			"file_write_time": 131330108778245733,
 			"settings":
 			{
-				"buffer_size": 425,
+				"buffer_size": 723,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -121,15 +128,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 849,
+						"buffer_size": 843,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								391,
-								407
+								843,
+								843
 							]
 						],
 						"settings":
@@ -137,7 +144,7 @@
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -167,7 +174,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -179,15 +186,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 425,
+						"buffer_size": 723,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								330,
-								330
+								197,
+								197
 							]
 						],
 						"settings":

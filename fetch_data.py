@@ -13,9 +13,9 @@ def load_web_to_text(link='http://www.gutenberg.org/files/135/135-h/135-h.htm',f
 	response=urllib2.urlopen(link)
 	html = response.read()
 	soup=BeautifulSoup(html,'html.parser')
-	plane_text=soup.get_text().encode('utf-8')
+	plane_text=soup.get_text().encode('utf8')
 	with open(file,'w+') as text_file: 
-		text_file.write(str(plane_text))
+		text_file.write(plane_text)
 	return plane_text
 
 def show_param(clear_text):
